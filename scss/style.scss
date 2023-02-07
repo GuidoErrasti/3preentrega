@@ -1,0 +1,27 @@
+//import de los partials
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/mixin";
+
+//components
+@import "./components/footer";
+@import "./components/header";
+@import "./components/hero";
+
+
+//Layout
+@import "./layout/comoayudar";
+@import "./layout/contactanos";
+@import "./layout/index";
+@import "./layout/quienessomos";
+@import "./layout/medias";
+
+//fuente importada
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,900&display=swap');
+
+
+
+
+
+

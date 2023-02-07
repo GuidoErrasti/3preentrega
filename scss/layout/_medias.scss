@@ -1,0 +1,158 @@
+
+
+
+/*MEdia Queries*/
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+
+    .header{
+        background-color: $bg-color;
+        font-family: $font-main;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size:50%;
+        padding-left: 34px;
+        font-size: 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        gap: 10px;
+        display: flex;
+    }
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap-reverse
+
+}
+
+    .nav ul li{
+        font-family: $font-main;
+        font-size: 20px;
+        margin-right: 38px;
+        margin-top: 100px;
+        padding-top: 30px;
+        display: inline-block;
+        flex-direction: column;
+        gap: 10px;
+        position: center;
+
+    }
+
+    .navSuperior {
+        margin-top: 30px;
+        height: 370px;
+        gap: 10px;
+
+    }
+
+    .imgLogo{
+        height: 120px;
+        width: 264px;
+        position: top;
+    }
+
+    .hero_section h1{
+    padding-top: 170px;
+    font-size: 26px;
+    p{
+        margin-top: 0px;
+        font-size: 10px;
+        margin-left: 20px;
+    
+    }
+
+
+}
+
+
+
+#cuartonav{
+border-top: 20px;
+position: sticky;
+top: 2px;
+}
+
+.hero_section1 h2{
+    font-size: 20px;
+}
+
+.productosencontrados{
+    grid-template-columns: none;
+    grid-template-areas: none;
+}
+
+/*footer*/
+.footer{
+    font-size: 30px;
+}
+
+.logofooter{
+    padding-right: 80px;
+}
+
+.ulfooter{
+    display: none;
+}
+
+/* pagina CONTACTANOS*/
+.title_contactanos h1 {
+    padding-left: 10px;
+    h2 {
+        padding-left: 30px;
+        }
+    }
+
+.formulario_contenedor{
+    margin: 126px;
+    margin-left: 75px; 
+    background: none;
+}
+
+.formulario2{
+    font-size: 13px;
+    width: 228px;
+    padding-left: 26px;
+}
+
+.navbar a{
+    font-size: 12px;
+}
+
+.textarea{
+    width: 150px;
+}
+
+
+/*QUIENES SOMOS*/
+
+.titulo_quienessomos h1{
+    padding-left: 13px;
+}
+
+
+
+/*MEDIA QUERIE COMOAYUDAR*/
+
+.comoayudarcontein {
+    display:inline-block;
+    
+}
+
+.comoayudar_title{
+    display:inline-block;
+
+
+}
+.etapas img{
+
+    display: inline-block;
+    height:100px;
+    width:80px;
+
+
+
+
+}
+
+}
