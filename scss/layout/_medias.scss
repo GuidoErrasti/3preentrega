@@ -149,10 +149,19 @@ top: 2px;
     display: inline-block;
     height:100px;
     width:80px;
-
-
-
-
 }
+
+/*MEDIA QUERIE COMOAYUDAR*/
+.etapas{
+    display: grid;
+    background-color: #110802;
+}
+.etapa{
+    grid-template-columns: 60%;
+    grid-template-areas: 60%;
+    background-color: #c56119;
+}
+
+
 
 }
