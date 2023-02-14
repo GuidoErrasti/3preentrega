@@ -411,7 +411,9 @@ h2, h3 {
   .formulario2 {
     font-size: 13px;
     width: 228px;
-    padding-left: 26px; }
+    padding-left: 26px;
+    padding-right: 20px;
+  }
   .navbar a {
     font-size: 12px; }
   .textarea {
